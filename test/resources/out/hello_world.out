@@ -1,0 +1,8 @@
+CLASS Main : IO {
+    ATTR a : String
+    ATTR b : Bool
+    ATTR c : Int <- 1
+    METHOD main : SELF_TYPE () {
+        out_string (Hello, World.\n)
+    }
+}
